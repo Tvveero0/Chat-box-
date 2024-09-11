@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WhatsApp-like Chat</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="chat-container">
+        <div class="chat-box" id="chatBox">
+            <!-- Messages will be appended here -->
+        </div>
+
+        <div class="input-container">
+            <input type="text" id="messageInput" placeholder="Type your message...">
+            <button id="sendBtn" class="neon-button">Send</button>
+        </div>
+    </div>
+
+    <!-- Admin login -->
+    <div class="admin-login-container">
+        <button id="adminLoginBtn" class="neon-button">Admin Login</button>
+        <div id="adminChatPanel" class="admin-panel hidden">
+            <div class="admin-chat-box" id="adminChatBox"></div>
+            <input type="text" id="adminMessageInput" placeholder="Admin message...">
+            <button id="adminSendBtn" class="neon-button">Send</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
